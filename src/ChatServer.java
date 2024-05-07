@@ -34,7 +34,7 @@ public class ChatServer {
 
             if (clientMessage.equalsIgnoreCase("switch")) {
                 switchToClient = !switchToClient; // Toggle switch flag to switch chat mode
-            } else if (clientMessage.equalsIgnoreCase("quit")) {
+            } else if (clientMessage.equalsIgnoreCase("quit or die")) {
                 break; // Break the loop to close the server
             }
         }
